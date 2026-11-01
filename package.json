@@ -1,0 +1,17 @@
+{
+  "name": "dead-signal-coop",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dead Signal — cooperative zombie survival for 1–4 players",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "ws": "8.22.1"
+  }
+}
